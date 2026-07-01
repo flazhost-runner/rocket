@@ -5,7 +5,7 @@
     "cargo build"
   ],
   "migrate": [],
-  "start": "PORT=8080 cargo run",
-  "url": "http://localhost:8080",
+  "start": "PORT=${APP_PORT} cargo run",
+  "url": "http://localhost:${APP_PORT}",
   "readyPath": "/"
 }
