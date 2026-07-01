@@ -1,0 +1,11 @@
+{
+  "name": "Rocket",
+  "language": "rust",
+  "install": [
+    "cargo build"
+  ],
+  "migrate": [],
+  "start": "PORT=8080 cargo run",
+  "url": "http://localhost:8080",
+  "readyPath": "/"
+}
